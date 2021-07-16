@@ -13,14 +13,11 @@ var computerNumber = Math.floor(Math.random() * 6 + 1);
 //Stabilire il vincitore e printare in console il risultato.
 if (userNumber > computerNumber) {
 	console.log('Utente Vince!');
-	console.log('Utente: ', userNumber);
-	console.log('Computer: ' + computerNumber);
 } else if (userNumber < computerNumber) {
 	console.log('Computer Vince!');
-	console.log('Utente: ', userNumber);
-	console.log('Computer: ' + computerNumber);
 } else {
 	console.log('Pareggio!');
-	console.log('Utente: ', userNumber);
-	console.log('Computer: ' + computerNumber);
 }
+
+console.log('Utente: ', userNumber);
+console.log('Computer: ', computerNumber);
