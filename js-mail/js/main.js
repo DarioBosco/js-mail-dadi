@@ -1,9 +1,9 @@
-/*
-TODO: 
-Chiedi all’utente la sua email,
+var emailsArray = ['info@example.com', 'admin@example.com', 'contact@example.com'];
 
-controlla che sia nella lista di chi può accedere,
+var inputEmail = prompt('Inserisci la tua email');
 
-stampa un messaggio appropriato sull’esito del controllo.
-*/
-
+if (emailsArray.indexOf(inputEmail) == '-1') {
+	console.log('Email non trovata');
+} else {
+	console.log('Email trovata');
+}
